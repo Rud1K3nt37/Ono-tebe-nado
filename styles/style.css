@@ -1,0 +1,58 @@
+.header {
+  display: grid;
+  grid-template-columns: 2fr auto 2fr;
+  margin: 92px 50px;
+  /* Посмотреть по пиксель перфекту */
+}
+
+.header__menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+  padding: 0;
+  
+}
+
+.header__menu-item {
+  font-size: 18px;
+}
+
+.header__menu-item_active {
+  list-style: none;
+}
+
+.header__menu-link {
+  color: #000;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+}
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 240px;
+  position: relative;
+  right: -355px;
+}
+
+.header__address-decoration {
+  color: #000;
+  line-height: 24.3px;
+}
+
+.header__address-decoration-line {
+  line-height: 24.3px;
+}
+
